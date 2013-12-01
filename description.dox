@@ -1,0 +1,16 @@
+/**
+@mainpage Ising Model Monte Carlo Correlation Length Sampling via Cluster Algorithm
+
+This software is part of my bachelor thesis on the dimensional crossover in the Ising model. 
+It is distributed under the LGPLv2.1 (https://www.gnu.org/licenses/lgpl-2.1.html)
+
+
+The main purpose is to sample the time slice correlation of the Ising Model in any desired dimension. The lattice can be an arbitrary cuboid. A lot of the behaviour can be adapted by command line switches or compile-time options. See the main.h or Makefile respectively for more information on these. The Wolff single cluster and Swendsen Wang multi cluster algorithms are supported right now. Additional algorithms like a worm algorithm or the infamous Metropolis as well as additional functions to measure various other quantities might be added in the future.
+
+By publishing this code, I hope it might be helpful for anybody in the future who is interested in similar problems!
+
+
+In case of questions, bugs or anything else, do not hesitate to contact me: l.k@wwu.de
+
+Leopold Kellers
+*/
